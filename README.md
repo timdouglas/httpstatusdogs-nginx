@@ -5,12 +5,10 @@ Nginx conf to use [httpstatusdogs.com](http://httpstatusdogs.com) images as ngin
 
 ## Usage
 
-  1. Create a directory to put the images
+  1. Create a directory to put the images & `codes.conf`
   2. Use the bash commands in `codes.conf` to download the images and generate the error pages
-  3. Save `codes.conf` somewhere in your nginx includes directory
-  4. Include `codes.conf` in any of your nginx server blocks:
-
-     `include NGINX_INCLUDES_DIR/statusdogs/codes.conf;`
+  3. Update the paths in `codes.conf` to match your environment
+  4. Include `codes.conf` in any of your nginx server blocks
   5. Reload nginx
   6. Share and enjoy :)
 
